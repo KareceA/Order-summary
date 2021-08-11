@@ -62,21 +62,28 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 60px;
     border-radius: 5%;
-    padding: 20px;
-    
+    padding: 0px 20px;
+    position: relative;    
 }
 
 .header-image {
-    width: 330px;    
+    width: 370px;
+    right: 0px;
+    left: 0px;
+    height: 180px;
+    position: absolute;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 .order-body {
     padding: 20px;
     margin: -20px;
+    padding-top: 175px;
 }
 
-img {
+/* img {
     border-radius: 5%;
-}
+} */
