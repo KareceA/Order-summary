@@ -30,6 +30,9 @@ html * {
     color: white;
 }
 
+.btn:hover{
+    opacity: 0.6;
+}
 .change-text {
     padding: inherit;
 }
@@ -43,8 +46,16 @@ html * {
     color: rgb(156, 151, 151);
 }
 
+.cancel-tag:hover {
+    color: #1545b3;
+}
+
 body {
     background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    background-color: #e0e8ff;
+    /* background-size: 100vw 40vh; */
     text-align: center;
     margin: 0px;
 }
@@ -55,7 +66,10 @@ body {
 }
 
 .main-div {
-    height: 520px;
+    /* height: 520px; */
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
     width: 330px;
     background-color: white;
     text-align: center;
